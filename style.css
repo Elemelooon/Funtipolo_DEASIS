@@ -1,0 +1,36 @@
+p {
+    font-size: 20px;
+}
+.crslsub img {
+    height: 100%;
+}
+.sbarbutton {
+    top: 35%;
+    right: 0;
+    font-size: 30px;
+    
+}
+.sbarbtn {
+    border: 1px !important;
+    border-color: rgb(119, 118, 118) !important;
+    border-style: solid !important;
+    padding: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    opacity: 0.3;
+}
+.sbarbtn:hover {
+    opacity: initial;
+}
+dt , dd {
+    font-size: 20px;
+}
+.offcanvas {
+    width: 300px !important;
+    /* height: 60% !important; */
+    /* top: 20% !important; */
+}
+.container-fluid {
+        margin: 0;
+        padding: 0;
+}

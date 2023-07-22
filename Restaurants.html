@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants in Antipolo</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boostrap Connection -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS Connection -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top"> 
+        <div class="container-fluid">
+            <!-- Nav Title -->
+            <a class="navbar-brand text-dark px-2" href="index.html">
+                <img src="img/treelogo.png" style="width: 50px; "> Wanderlust
+                <!-- <h2>Wanderlust</h2> -->
+            </a>
+            <!-- /Nav Title -->
+            <!-- Nav Button -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- /Nav Button -->
+            <!-- Nav List -->
+            <div class="collapse navbar-collapse" id="navi">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"> <a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"> <a href="PintoArtMuseum.html" class="nav-link">Tourist Spots</a></li>
+                    <li class="nav-item"> <a href="Restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">Hotels</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /Nav List -->
+        </div>
+    </nav>
+    <!-- /Navigation Bar -->
+
+    <!-- Sidebar -->
+    <div class="sbarbutton text-end position-fixed">
+        <button class="sbarbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#sbar"><i class="fa-solid fa-caret-left"></i></button>
+    </div>
+    <div class="offcanvas offcanvas-end" id="sbar">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a href="Restaurants.html#burrowcafe" class="btn">Burrow Cafe</a><br>
+            <a href="Restaurants.html#tahanan" class="btn">Tahanan Bistro</a> <br>
+            <a href="Restaurants.html#tipulo" class="btn">Tipulo</a><br>
+            <a href="Restaurants.html#yellow" class="btn">Yellow Lantern Cafe</a><br>
+            <a href="Restaurants.html#moon" class="btn">Crescent Moon Cafe</a><br>
+          
+        </div>
+    </div>
+    <!-- /Sidebar -->
+
+    <div class="container">
+        <h1 class="display-2 text-center mb-5">Restaurants in Antipolo</h1>
+        <div class="row my-4">
+            <!-- BURROW CAFE -->
+            <h1 class="my-4" id="burrowcafe">Burrow Cafe</h1>
+            <div class="col-lg-6">
+                <img src="img/burrow2.jpg" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <p class="">Hidden underground is a secret hideaway called the Burrow Cafe, which is tucked within lush greenery in Beverly Hills Subdivision, Antipolo. It is literally a real-life Alice in Wonderland place where guests have to go down a rabbit hole to get inside the cafe. Burrow Cafe is among the best Antipolo coffee shops for vegans and non-vegans alike.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 my-auto">
+                <p>This best-kept secret cafe is located within the grounds of Antipolo Beehouse, a beautiful wooden glasshouse with a bee farm. Burrow Cafe is exactly 76 steps below the gate of the bee farm, and upon entering, the rustic ambiance of the cafe will greet you. There is also a hammock hanging in the corner.</p>
+                <p>Adding to the homey vibe of the cafe are the floor-to-panel panel windows where you can see through the surrounding rich forest. When it comes to food, Burrow Cafe offers an all-day Antipolo breakfast and lunch menu featuring farm-to-table meals. Their best-sellers include Tender Beef Tapa, Crispy Lechon, Tofu and Barley, and vegan Mushroom Cauliflower Rice.</p>
+                <div class="py-5 h1 text-center">
+                    <a href="https://www.facebook.com/burrowcafe.ph/"><i class="fa-brands fa-facebook px-2"></i></a>
+                    <a href="https://www.antipolobeehouse.com/burrow-cafe/reservations"><i class="fa-solid fa-link px-2"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#burrowmod" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/Burrows3.webp" alt="" class="w-100">
+            </div>
+        </div>
+        <div class="row my-4 gy-lg-0 gy-4">
+            <div class="col-lg-4">
+                <img src="img/Burrow.jpg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/burrow6.JPG" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/burrow5.jpg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        <!-- /BURROW CAFE -->
+    </div>
+        <!-- TAHANAN BISTRO -->
+    <div class="container">
+        <div class="row my-4">
+            <h1 class="my-4" id="tahanan">Tahanan Bistro</h1>
+            <div class="col-lg-6">
+                <img src="img/bistro4.webp" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <p class="">Tahanan Bistro is a well-known Filipino restaurant located in Antipolo, Rizal, Philippines. The name "Tahanan" translates to "home" in Filipino, and the restaurant aims to provide a cozy and welcoming atmosphere reminiscent of a traditional Filipino home. Tahanan Bistro is renowned for its modern take on classic Filipino cuisine, offering a diverse menu that showcases the rich flavors and culinary heritage of the Philippines. The restaurant takes pride in using locally-sourced, fresh ingredients, and their dishes often incorporate traditional cooking methods and indigenous spices.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 my-auto">
+                <p>Not only does Tahanan Bistro offer delectable dishes, but it also provides a breathtaking view of the Metro Manila skyline, as it is perched on the hills of Antipolo. This scenic setting adds to the overall dining experience, making it a popular destination for both locals and tourists seeking a unique taste of Filipino culture and cuisine.</p>
+                <p>Tahanan was built from 100% reclaimed wood, salvaged from old houses and bridges from around the Philippines. Designer and woodworker Benji Reyes and his wife Carina built the house for their family in the year 1999. The both of them, along with their daughters Eena and Keesha, had been dreaming of turning a portion of their home into a bistro for years.</p>
+                <div class="py-5 h1 text-center">
+                    <a href="https://www.facebook.com/tahanan.bistro/"><i class="fa-brands fa-facebook px-2"></i></a>
+                    <a href="https://www.tahananbistro.com/"><i class="fa-solid fa-link px-2"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#tahananmod" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/bistro6.webp" alt="" class="w-100">
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-lg-4 gy-lg-0 gy-4">
+                <img src="img/bistro.jpg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/bistro2.webp" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/bistro3.jpg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        
+    </div>
+        <!-- /TAHANAN BISTRO -->
+
+
+        <!-- TIPULO -->
+    <div class="container">
+        <div class="row my-4">
+            <h1 class="my-4" id="tipulo">Tipulo</h1>
+            <div class="col-lg-6">
+                <img src="img/tipulo.jpg" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <p class="">Tipulo has a beautiful alfresco dining setup perfect for romantic dates and casual lunch outs with friends and family while still practicing social distancing. Tipulo is within a natural garden surrounded by lush greenery. Similar to some of the restaurants in Antipolo, Tipulo also serves Filipino cuisines with a modern twist. They’ve spiced up some of the well-known Filipino dishes to create a new version of these cuisines that uniquely sets them apart from other food places in Antipolo. Among their newly curated dishes are Sisig Pasta and Crispy Pata sprinkled with chives, garlic, and chili. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 my-auto">
+                <p>Since Tipulo is located in the park, specifically inside First Pacific Leadership Academy, it’s also a great area if you want to take a stroll or bike before or after you eat. Plus points: you can bring your fur babies for a stroll here, too!</p>
+                <p>Tipulo offers a modern take on Filipino cuisine. They have all-day breakfast meals that come with a complementary serving of brewed coffee, hot chocolate, or juice. They also offer soup, appetizers, pasta, rice, chicken, seafood, vegetables, desserts, and drinks.</p>
+                <div class="py-5 h1 text-center">
+                    <a href="https://www.facebook.com/TipuloFPLA/"><i class="fa-brands fa-facebook px-2"></i></a>
+                    <a href="https://fpla.com.ph/facility/tipulo-restaurant/"><i class="fa-solid fa-link px-2"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#tipulomod" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/tipulo7.jpg" alt="" class="w-100">
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-lg-4 gy-lg-0 gy-4">
+                <img src="img/tipulo1.jpg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/tipulo2.jpg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/tipulo3.jpg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        
+    </div>
+        <!-- /TIPULO -->
+
+        <!-- YELLOW LANTERN CAFE -->
+    <div class="container">
+        <div class="row my-4">
+            <h1 class="my-4" id="yellow">Yellow Lantern Cafe</h1>
+            <div class="col-lg-6">
+                <img src="img/yellow5.png" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <p class="">Tucked along Sumulong Highway, Yellow Lantern Cafe is a brightly colored restaurant and hangout spot in Antipolo. Adding to the cafe’s backdrop is the stunning view of the cityscape. The cafe also houses a bar with an in-house bartender who prepares delightful cocktail drinks and alcoholic beverages come happy hour. If you’re looking for the best place to eat in Antipolo, you should put Yellow Lantern Cafe on your list. It offers all-day breakfast meals, pizza, and pasta dishes. With its relaxing ambiance and comfort food offerings, Yellow Lantern Cafe deserves to be deemed as the best cafe in Antipolo. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 my-auto">
+                <p>Among their best-selling dishes is their special version of Paella, named Umaapaw. Another mouthwatering dish is the American BBQ Ribs, which is smokingly sweet and tasty. Capping off your meal is a Filipino-inspired dessert, their Chocnut flavored cheesecake. Chocnut is a famous peanut-flavored Filipino snack favorite. </p>
+                
+                <div class="py-5 h1 text-center">
+                    <a href="https://www.facebook.com/yellowlanterncafe/"><i class="fa-brands fa-facebook px-2"></i></a>
+                    <a href="mailto:yellowlanterncafeph@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#yellowmod" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/yellow4.jpg" alt="" class="w-100">
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-lg-4 gy-lg-0 gy-4">
+                <img src="img/yellow1.webp" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/yellow2.jpg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/yellow3.jpg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        
+    </div>
+        <!-- /YELLOW LANTERN CAFE -->
+
+
+        <!-- CRESCENT MOON CAFE -->
+    <div class="container">
+        <div class="row my-4">
+            <h1 class="my-4" id="moon">Crescent Moon Cafe Studio and Pottery</h1>
+            <div class="col-lg-6">
+                <img src="img/moon1.jpeg" alt="" class="w-100">
+            </div>
+            <div class="col-lg-6 my-auto">
+                <p class="">The Crescent Moon Cafe and Studio Pottery located along the main road in Antipolo going to Teresa town in Rizal. Before it got transformed into a serene cafe, it used to be a historical destination. Despite all the renovations, this charming cafe never failed to preserve its artistic side. Adding to its vibrant ambiance is an attractive pottery display with colorful hues dominating the whole place. You can also attend their fun pottery workshop to experience first-hand creating and designing pots.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 my-auto">
+                <p>When it comes to their food, they make sure to add some creativity to their dishes. Since they don’t have fixed menus, it’s important to have reservations to know their menu of the day. They serve farm-to-table Southeast Asian dishes like the Alagao Appetizer (Steamed Pompano with Nuoc Cham Sauce). For desserts, try their Alagaw and Mangga’t Suman (Mango and Rice Cake).</p>
+                <p>Inside the Crescent Moon Cafe compound is artist Lanelle Abueva-Fernando’s Leaf Studio Pottery. The studio is where she makes her handmade, stoneware ceramics that are described to have rustic yet refined designs. These have Japanese influence, the artist having lived in Japan. In the art space, you’ll see Abueva-Fernando’s pottery pieces which won a silver and bronze medal in the 1982 exhibition by The Ceramic Arts Association of Japan.</p>
+                
+                <div class="py-5 h1 text-center">
+                    <a href="https://www.facebook.com/CrescentMoonCafeAndStudioPottery/"><i class="fa-brands fa-facebook px-2"></i></a>
+                    <a href="https://crescentmoonantipolo.com/"><i class="fa-solid fa-link px-2"></i></a>
+                    <a data-bs-toggle="modal" data-bs-target="#moonmod" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="img/moon.webp" alt="" class="w-100">
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-lg-4 gy-lg-0 gy-4">
+                <img src="img/moon2.jpeg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/moon3.jpeg" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-lg-4">
+                <img src="img/moon4.jpeg" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        
+    </div>
+        <!-- /CRESCENT MOON CAFE -->
+
+
+    <!-- MODALS!! -->
+    <div class="modal fade" id="burrowmod">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.4197315845922!2d121.15417421484004!3d14.575142789818733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7dcc9c976e5%3A0xaa3fa71c642214ac!2sBurrow%20Cafe%20PH!5e0!3m2!1sen!2sph!4v1690015841894!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="text-center">Beverly Hills Dr, Taytay, 1920 Rizal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tahananmod">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.4808857444377!2d121.16293501483993!3d14.571652589820902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c74e7688c339%3A0x9a60652af9d4cf92!2sTahanan%20Bistro!5e0!3m2!1sen!2sph!4v1690016291329!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="text-center">22 Loresville Drive, Lores Farm Subdivision, Antipolo, 1870 Lalawigan ng Rizal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tipulomod">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.921393681515!2d121.17196361484042!3d14.603553589800656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8ef3185b2cb%3A0x8649dbb7f97afd32!2sTipulo!5e0!3m2!1sen!2sph!4v1690016632447!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="text-center">27 Sumulong Hwy, Antipolo, 1870 Rizal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="yellowmod">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15441.885749001991!2d121.12228907810223!3d14.629159736547349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b8ef65ebf375%3A0x1b33c1d1cfaef50d!2sYellow%20Lantern%20Caf%C3%A9!5e0!3m2!1sen!2sph!4v1690016387521!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="text-center">267 Sumulong Hwy, Antipolo, Rizal</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="moonmod">
+        <div class="modal-dialog"> 
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.401718320619!2d121.18478361484004!3d14.576170689818047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c0aa679c2685%3A0x2fe37b910e9255f3!2sThe%20Crescent%20Moon%20Cafe%20and%20Studio%20Pottery!5e0!3m2!1sen!2sph!4v1690016418001!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="text-center">Sapang Buho Road, Brgy. Dalig, Antipolo City.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JS connection -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

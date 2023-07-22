@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinto Art Museum</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boostrap Connection -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS Connection -->
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+    .container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+    .crslsub {
+        height: 236px;
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top"> 
+        <div class="container-fluid">
+            <!-- Nav Title -->
+            <a class="navbar-brand text-dark px-2" href="index.html">
+                <img src="img/ibon-removebg.png" style="width: 10%;"> Wanderlust
+                <!-- <h2>Wanderlust</h2> -->
+            </a>
+            <!-- /Nav Title -->
+            <!-- Nav Button -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navi">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- /Nav Button -->
+            <!-- Nav List -->
+            <div class="collapse navbar-collapse" id="navi">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item"> <a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#sbar">Tourist Spots</a></li>
+                    <li class="nav-item"> <a href="Restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">Hotels</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /Nav List -->
+        </div>
+    </nav>
+    <!-- /Navigation Bar -->
+
+    <!-- Sidebar -->
+    <div class="sbarbutton text-end position-fixed">
+        <button class="sbarbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#sbar"><i class="fa-solid fa-caret-left"></i></button>
+    </div>
+    <div class="offcanvas offcanvas-end" id="sbar">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <a href="PintoArtMuseum.html" class="btn">Pinto Art Museum</a><br>
+            <a href="HinulugangTaktak.html" class="btn">Hinulugang Taktak</a> <br>
+            <a href="Cloud9.html" class="btn">Cloud 9</a><br>
+            <a href="AntipoloCathedral.html" class="btn">Antipolo Cathedral</a><br>
+            <a href="LHGS.html" class="btn">Luljetta's Hanging Gardens Spa</a><br>
+            <a href="MountPurro.html" class="btn">Mount Purro Nature Reserve</a><br>
+          
+        </div>
+    </div>
+    <!-- /Sidebar -->
+
+    <div class="container">
+        <h1 class="py-3">Pinto Art Museum</h1>
+        <div class="row">
+            <div class="col-lg-7">
+                <p>Pinto Art Museum is a renowned contemporary art museum located in Antipolo City, Philippines. This captivating museum showcases an extensive collection of contemporary Filipino art and serves as a haven for artists and art enthusiasts alike.</p>
+                <p>The name "Pinto" is derived from the Filipino word for "door," and appropriately, the museum invites visitors to open the doors to creativity and imagination. The sprawling complex is set amidst lush gardens and rolling hills, providing a tranquil and picturesque setting for art appreciation.</p>
+                <p>Pinto Art Museum houses a diverse array of artworks, including paintings, sculptures, installations, and mixed-media pieces. The collection features works from both established and emerging Filipino artists, offering a glimpse into the country's vibrant art scene and creative expressions.</p>
+            </div>
+            <div class="col-lg-5">
+                <img src="img/Pinto-Art-Museum-Day-Tour-12-1024x1024.jpg" alt="" class="w-100">
+            </div>
+        </div>
+        <p>One of the museum's distinct features is its use of indigenous architectural elements, as the structures are inspired by the traditional Philippine bahay kubo or native hut. The unique blend of contemporary art against this traditional backdrop adds to the museum's allure and creates a harmonious ambiance.</p>
+        <p>Many visitors consider Pinto Art Museum to be more than just a gallery space; it's also a cultural sanctuary and a place of inspiration. The scenic surroundings and serene atmosphere contribute to an immersive experience, allowing guests to connect with the artworks on a deeper level.</p>
+        <p>The museum regularly hosts various cultural events, workshops, and exhibits, making it an essential destination for those seeking to immerse themselves in the rich and diverse world of contemporary Filipino art. Whether you are an art enthusiast, a casual observer, or someone looking for a unique escape, Pinto Art Museum is sure to leave a lasting impression and a deeper appreciation for the artistic heritage of the Philippines.</p>
+    </div>
+
+      <!-- Carousel -->
+    <div class="container my-5">
+        <div id="subcarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+            <!-- Carousel Body -->
+            <div class="carousel-inner">
+                <!-- Item -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc2.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /Item -->
+                <!-- Item -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc5.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /Item -->
+                <!-- Item -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-4 mb-lg-0">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc7.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="card crslsub">
+                                <img src="img/pintosubc10.webp" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- /Item -->
+            </div>
+            <!-- Carousel Buttons -->
+            <div class="d-flex justify-content-center my-4">
+                <button class="carousel-control-prev position-relative " type="button" data-bs-target="#subcarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon text-dark"></span>
+                </button>
+                <button class="carousel-control-next position-relative" type="button" data-bs-target="#subcarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon text-dark"></span>
+                </button>
+            </div>
+
+        
+            <!-- Carousel Buttons -->
+        </div>
+    </div>
+      <!-- /Carousel -->
+    <div class="container text-center">
+        <dl>
+            <dt>Opening Hours:</dt>
+            <dd>10:00AM-6:00PM (Tuesday-Sunday); CLOSED (Mondays). The opening hours might change without prior notice, so please check 
+            the official website or Facebook page before visiting.</dd>
+            <dt>Entrance Fee:</dt>
+            <dd> P250 (Adult); P200 (PWD/Senior Citizen); P125 (Student w/ Proof of Enrollment)</dd>
+            <dt>Location:</dt>
+            <dd>1 Sierra Madre Street, Grand Heights Subdivision, Antipolo, Rizal</dd>
+        </dl>
+    </div>
+    <div class="container py-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.314141852188!2d121.15931678885495!3d14.581167100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7560c9a4dc9%3A0x8278981e4ee4d779!2sPint%C3%B4%20Art%20Museum!5e0!3m2!1sen!2sph!4v1689932103720!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        
+
+    
+
+    <!-- JS connection -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
