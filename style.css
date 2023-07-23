@@ -106,3 +106,29 @@ footer {
 .tourbutton:hover {
     background-color: rgb(47, 82, 47);
 }
+.tour .tcard {
+    visibility: hidden;
+    /* opacity: 0; */
+    transition: visibility 0.2s linear 0.2s;
+}
+.tour:hover .tcard {
+    visibility: visible;
+    /* opacity: 1; */
+}
+.tour .tourbutton {
+    visibility: hidden;
+    /* opacity: 0; */
+    transition: visibility 0.2s linear 0.2s;
+}
+.tour:hover .tourbutton {
+    visibility: visible;
+    /* opacity: 1; */
+    /* filter: none; */
+}
+.tourimg:hover img{
+    -webkit-filter: blur(4px) ;
+    filter: blur(4px);
+}
+.tourimg img {
+    transition: filter 0.2s linear 0.2s;
+}
