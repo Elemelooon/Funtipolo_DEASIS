@@ -1,5 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(191, 156, 203); */
+}
+a {
+    text-decoration: none;
+}
 p {
     font-size: 20px;
+}
+.navbar {
+    /* background-color: rgb(80, 87 , 123, 0.3); */
+    /* opacity: .5; */
+    /* background-color: rgb(46, 92, 46); */
+    transition: background-color 0.3 ease;
+}
+.navbar-solid {
+    opacity: 1;
+    background-color: rgb(46, 92, 46);
+    color: white;
+}
+.navbar-brand , .nav-link {
+    color: black
 }
 .crslsub img {
     height: 100%;
@@ -43,5 +65,17 @@ dt , dd {
 }
 .rescard img {
     width: 30%;
+}
+
+@media screen and (max-width:768px){
+    .rescard {
+        flex-direction: column;
+    }
+    .rescard img {
+        width: 100%;
+    }
+}
+footer {
+    background-color: #262626;
 }
 

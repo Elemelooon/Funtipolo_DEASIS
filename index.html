@@ -13,16 +13,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <img src="img/antip6.png" alt="" class="w-100">
-    </div>
-
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top"> 
+    <nav class="navbar navbar-expand-lg fixed-top"> 
         <div class="container-fluid">
             <!-- Nav Title -->
-            <a class="navbar-brand text-dark px-2" href="index.html">
-                <img src="img/treelogo.png" style="width: 50px; "> Wanderlust
+            <a class="navbar-brand p-2 mx-2" href="index.html">
+                <!-- <img src="img/ibon-removebg.png" style="width: 10%;"> -->
+                <!-- <img src="img/treelogo.png" style="width: 50px; "> -->
+                 Wanderlust
                 <!-- <h2>Wanderlust</h2> -->
             </a>
             <!-- /Nav Title -->
@@ -35,20 +33,34 @@
             <div class="collapse navbar-collapse" id="navi">
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item"> <a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"> <a href="PintoArtMuseum.html" class="nav-link">Tourist Spots</a></li>
-                    <li class="nav-item"> <a href="Restaurants.html" class="nav-link">Restaurants</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">Hotels</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">About</a></li>
-                    <li class="nav-item"> <a href="" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"> <a href="index.html#tourspots" class="nav-link">Tourist Spots</a></li>
+                    <li class="nav-item"> <a href="index.html#restau" class="nav-link">Restaurants</a></li>
+                    <!-- <li class="nav-item"> <a href="" class="nav-link">Hotels</a></li> -->
                 </ul>
             </div>
             <!-- /Nav List -->
         </div>
     </nav>
+    <script>
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.add('navbar-solid');
+            } else {
+                navbar.classList.remove('navbar-solid');
+            }
+        });
+    </script>
     <!-- /Navigation Bar -->
+    <div class="container-fluid">
+        <img src="img/antip6.png" alt="" class="w-100">
+    </div>
+
+    
 
     <div class="container">
-        <h1 class="display-1 text-center mb-5">Antipolo City</h1>
+        <h1 class="display-1 text-center my-5">Antipolo City</h1>
         <div class="row">
             <div class="col-lg-6">
                 <p>Antipolo City is a vibrant and picturesque city located in the province of Rizal, Philippines. Known as the "Pilgrimage Capital of the Philippines," Antipolo is a popular destination for both religious devotees and tourists seeking scenic views and a tranquil atmosphere.</p>
@@ -142,7 +154,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="tourspots">
         <h1 class="my-5">Tourist Spots</h1>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
@@ -207,16 +219,17 @@
             </div>
         </div>
 
-        <h1 class="my-5">Restaurants</h1>
+        <h1 class="my-5" id="restau">Restaurants</h1>
         <div class="row gy-3">
             <div class="col-12">
                 <div class="card h-100 rescard">
-                    <img src="img/burrow2.jpg" class="card-img-top" alt="" >
+                        <img src="img/burrow2.jpg" alt="" class="card-img-top">
                     <div class="card-body my-auto">
-                        <a href="Restaurants.html#burrow" class="card-title h4" style="text-decoration: none;">Burrow Cafe</a>
+                        <h4 class="card-title">Burrow Cafe</h4>
                         <div class="card-text">
                             Hidden underground is a secret hideaway called the Burrow Cafe, which is tucked within lush greenery in Beverly Hills Subdivision, Antipolo. It is literally a real-life Alice in Wonderland place where guests have to go down a rabbit hole to get inside the cafe. Burrow Cafe is among the best Antipolo coffee shops for vegans and non-vegans alike.
                         </div>
+                        <a href="Restaurants.html#burrow" class="btn btn-outline-dark mt-3">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -228,6 +241,7 @@
                         <div class="card-text">
                             Tahanan Bistro is a well-known Filipino restaurant located in Antipolo, Rizal, Philippines. The name "Tahanan" translates to "home" in Filipino, and the restaurant aims to provide a cozy and welcoming atmosphere reminiscent of a traditional Filipino home.
                         </div>
+                        <a href="Restaurants.html#tahanan" class="btn btn-outline-dark mt-3">Learn More</a>
                     </div>
                     <img src="img/bistro4.webp" class="card-img-buttom" alt="" >
                 </div>
@@ -240,6 +254,7 @@
                         <div class="card-text">
                             Tipulo has a beautiful alfresco dining setup perfect for romantic dates and casual lunch outs with friends and family while still practicing social distancing. Tipulo is within a natural garden surrounded by lush greenery. Similar to some of the restaurants in Antipolo, Tipulo also serves Filipino cuisines with a modern twist.
                         </div>
+                        <a href="Restaurants.html#tipulo" class="btn btn-outline-dark mt-3">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -249,8 +264,9 @@
                     <div class="card-body my-auto text-end">
                         <h4 class="card-title">Yellow Lantern Cafe</h4>
                         <div class="card-text">
-                            Tucked along Sumulong Highway, Yellow Lantern Cafe is a brightly colored restaurant and hangout spot in Antipolo. Adding to the cafe’s backdrop is the stunning view of the cityscape. The cafe also houses a bar with an in-house bartender who prepares delightful cocktail drinks and alcoholic beverages come happy hour. If you’re looking for the best place to eat in Antipolo, you should put Yellow Lantern Cafe on your list.
+                            Tucked along Sumulong Highway, Yellow Lantern Cafe is a brightly colored restaurant and hangout spot in Antipolo. Adding to the cafe’s backdrop is the stunning view of the cityscape. The cafe also houses a bar with an in-house bartender who prepares delightful cocktail drinks and alcoholic beverages come happy hour.
                         </div>
+                        <a href="Restaurants.html#yellow" class="btn btn-outline-dark mt-3">Learn More</a>
                     </div>
                     <img src="img/yellow5.png" class="card-img-buttom" alt="">
                 </div>
@@ -261,13 +277,71 @@
                     <div class="card-body my-auto">
                         <h4 class="card-title">Crescent Moon Cafe Studio and Pottery</h4>
                         <div class="card-text">
-                            The Crescent Moon Cafe and Studio Pottery located along the main road in Antipolo going to Teresa town in Rizal. Before it got transformed into a serene cafe, it used to be a historical destination. Despite all the renovations, this charming cafe never failed to preserve its artistic side. Adding to its vibrant ambiance is an attractive pottery display with colorful hues dominating the whole place. You can also attend their fun pottery workshop to experience first-hand creating and designing pots.
+                            The Crescent Moon Cafe and Studio Pottery located along the main road in Antipolo going to Teresa town in Rizal. Before it got transformed into a serene cafe, it used to be a historical destination. Adding to its vibrant ambiance is an attractive pottery display with colorful hues dominating the whole place.
                         </div>
+                        <a href="Restaurants.html#moon" class="btn btn-outline-dark mt-3">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <br><br>
+    <div class="container-fluid">
+
+    <footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+            Follow us:
+        </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="footerlinks">
+    <div class="container mt-5">
+        <div class="row text-center">
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">FAQ</a>
+        </div>
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright: All Rights Reserved
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+    </div>
 </body>
 </html>
