@@ -12,7 +12,7 @@ p {
 .navbar {
     /* background-color: rgb(80, 87 , 123, 0.3); */
     /* opacity: .5; */
-    /* background-color: rgb(46, 92, 46); */
+    background-color: rgb(46, 92, 46, 0.5);
     transition: background-color 0.3 ease;
 }
 .navbar-solid {
@@ -22,6 +22,9 @@ p {
 }
 .navbar-brand , .nav-link {
     color: white;
+}
+.nav-link:hover {
+    color: #262626;
 }
 .crslsub img {
     height: 100%;
@@ -34,15 +37,16 @@ p {
 }
 .sbarbtn {
     border: 1px !important;
-    border-color: rgb(119, 118, 118) !important;
+    border-color: rgb(46, 92, 46) !important;
     border-style: solid !important;
     padding: 20px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    opacity: 0.3;
+    color: rgb(46, 92, 46);
 }
 .sbarbtn:hover {
-    opacity: initial;
+    color: white;
+    background-color: rgb(46, 92, 46);
 }
 dt , dd {
     font-size: 20px;
@@ -86,4 +90,19 @@ footer {
     background-color: rgb(47, 82, 47);
     color: white;
 }
-
+.iconlink {
+    color: rgb(47, 82, 47);
+}
+/* .card-image-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.tourbutton {
+    background-color: rgb(47, 82, 47, 0.5);
+    color: white;
+    border-color: white;
+}
+.tourbutton:hover {
+    background-color: rgb(47, 82, 47);
+}

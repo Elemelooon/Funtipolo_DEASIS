@@ -31,7 +31,7 @@
             <!-- /Nav Button -->
             <!-- Nav List -->
             <div class="collapse navbar-collapse" id="navi">
-                <ul class="navbar-nav ms-auto ">
+                <ul class="navbar-nav ms-auto p-lg-0 p-4">
                     <li class="nav-item"> <a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"> <a href="index.html#tourspots" class="nav-link">Tourist Spots</a></li>
                     <li class="nav-item"> <a href="index.html#restau" class="nav-link">Restaurants</a></li>
@@ -53,10 +53,62 @@
         });
     </script>
     <!-- /Navigation Bar -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <img src="img/antip6.png" alt="" class="w-100">
+    </div> -->
+    <!-- Carousel -->
+    <div class="container-fluid">
+        <div id="maincarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+            <button data-bs-target="#maincarousel" data-bs-slide-to="0" class="active">
+    
+            </button>
+            <button data-bs-target="#maincarousel" data-bs-slide-to="1">
+    
+            </button>
+            <button data-bs-target="#maincarousel" data-bs-slide-to="2">
+    
+            </button>
+            <button data-bs-target="#maincarousel" data-bs-slide-to="3">
+    
+            </button>
+            <button data-bs-target="#maincarousel" data-bs-slide-to="4">
+    
+            </button>
+        </div>
+            <!-- Carousel Indicators -->
+            <!-- Carousel body -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Welcome-to-Antipolo-City-the-pilgrimage-capital-of-the-Philippines-scaled.jpg" alt="" class=" d-block w-100" style="height: 800px;"> <!--d-block is to set the image to default display block-->
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mountcrsl5.webp" alt="" class="d-block w-100" style="height: 800px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cathedralcrsl3.webp" alt="" class="d-block w-100" style="height: 800px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bistro4.webp" alt="" class="d-block w-100" style="height: 800px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/pintosubc3.jpg" alt="" class="d-block w-100" style="height: 800px;">
+                </div>
+            </div>
+            <!-- Carousel body -->
+            <!-- Carousel Buttons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#maincarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#maincarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <!-- Carousel Buttons -->
+        </div>
     </div>
 
+        <!-- Carousel -->
     
 
     <div class="container">
@@ -87,6 +139,7 @@
                     <img src="img/food3.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <div class="card-text">
+                            <h4 class="card-title">Suman</h4>
                             Antipolo’s trademarks are their famous “Kakanin” (Filipino delicacies), the most popular of which is their “Suman.” Antipolo’s Suman is mainly made from “Malagkit” (glutinous rice) and coconut milk (gata) and wrapped in a so-called “Kampil.”
                         </div> 
                     </div>
@@ -97,6 +150,7 @@
                     <img src="img/food5.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <div class="card-text">
+                            <h4 class="card-title">Mango</h4>
                             Most restaurants in Antipolo serve tens of thousands with mango (they offer just the right amount of sweetness and a bit of acidity, making it the perfect pairing to balance the flavors). Mangoes (green (unripe) and yellow) are general in Antipolo.
                         </div>
                     </div>
@@ -107,6 +161,7 @@
                     <img src="img/food4.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <div class="card-text">
+                            <h4 class="card-title">Kasoy</h4>
                             They claimed that Antipolo’s kasoy are the best tasting cashew nuts in the country, and the fact that so many people buy the product despite its high price proves that they have done justice to their claim. Kasoy is now available in more flavors, including garlic, adobo, and even barbeque.
                         </div>
                     </div>
@@ -117,6 +172,7 @@
                     <img src="img/food.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <div class="card-text">
+                            <h4 class="card-title">Kalamay</h4>
                             Antipolo’s sticky “Kalamay” is another sweet delicacy. Kalamay mold with coconut milk, brown sugar, Paldo, latik, and glutinous rice ground. It is usually wrapped in banana leaves and topped with a dark sweet coconut glaze.
                         </div>
                     </div>
@@ -127,6 +183,7 @@
                     <img src="img/food1.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <div class="card-text">
+                            <h4 class="card-title">Coco Jam</h4>
                             Ballimbing, Coco Jam, Latik, and other delicacies can be found in Antipolo. After Mass, many people in Antipolo buy Pasalubong. You can see the shops outside the church. There are many shops. Some visitors come to the village of Antipolo to purchase local food.
                         </div>
                     </div>
@@ -158,64 +215,62 @@
         <h1 class="my-5">Tourist Spots</h1>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
-                <a href="PintoArtMuseum.html">
+                <!-- <a href="PintoArtMuseum.html"> -->
                     <div class="card h-100">
                     <img src="img/Pinto-Art-Museum-Day-Tour-12-1024x1024.jpg" class="card-img w-100 h-100" alt="">
-                        <div class="card-img-overlay">
-                        <h4 class="card-text text-center tcard">Pinto Art Museum</h4>
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
+                        <h4 class="card-text tcard">Pinto Art Museum</h4>
+                        <a href="PintoArtMuseum.html" class="btn mt-3 tourbutton">Learn More</a>
                         </div>
                     </div>
-                </a>
+                <!-- </a> -->
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="HinulugangTaktak.html">
                     <div class="card h-100">
                     <img src="img/52712103236_7dee192389_c.jpg" class="card-img w-100 h-100" alt="">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                         <h4 class="card-text text-center tcard">Hinulugang Taktak</h4>
+                        <a href="HinulugangTaktak.html" class="btn mt-3 tourbutton">Learn More</a>
                         </div>
                     </div>
-                </a>
             </div>
             <div class="col-lg-4 col-md-6">
                 <a href="Cloud9.html">
                     <div class="card h-100">
                     <img src="img/Cloud-9-Antipolo-Tour-13.jpg" class="card-img w-100 h-100" alt="">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                         <h4 class="card-text text-center tcard">Cloud 9</h4>
+                        <a href="Cloud9.html" class="btn mt-3 tourbutton">Learn More</a>
                         </div>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="AntipoloCathedral.html">
                     <div class="card h-100">
                         <img src="img/cathedral.jpg" class="card-img w-100 h-100" alt="">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                         <h4 class="card-text text-center tcard">Antipolo Cathedral</h4>
+                        <a href="AntipoloCathedral.html" class="btn mt-3 tourbutton">Learn More</a>
                         </div>
                     </div>
-                </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="LHGS.html">
                     <div class="card h-100">
                         <img src="img/Luljetta’s-Hanging-Gardens-and-Spa.webp" class="card-img w-100 h-100" alt="">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                             <h4 class="card-text text-center tcard">Luljetta's Hanging Gardens and Spa</h4>
+                            <a href="LHGS.html" class="btn mt-3 tourbutton">Learn More</a>
                         </div>
                     </div>
-                </a>
             </div>
             <div class="col-lg-4 col-md-6">
-                <a href="MountPurro.html">
                     <div class="card h-100">
                         <img src="img/mountpurro.webp" class="card-img w-100 h-100" alt="">
-                        <div class="card-img-overlay">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center flex-column">
                             <h4 class="card-text text-center tcard">Mount Purro Nature Reserve</h4>
+                            <a href="MountPurro.html" class="btn mt-3 tourbutton">Learn More</a>
                         </div>
                     </div>
-                </a>
             </div>
         </div>
 
@@ -297,9 +352,9 @@
                     <h4 class="card-title h4 text-center">Leblanc Hotel and Resort</h4>
                     <div class="card-text">
                         <div class="h3 text-center">
-                            <a href="https://www.facebook.com/LeBlancPhilippines/" target="_blank"><i class="fa-brands fa-facebook px-2"></i></a>
-                            <a href="https://www.leblanc.com.ph/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            <a data-bs-toggle="modal" data-bs-target="#leblanc" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                            <a href="https://www.facebook.com/LeBlancPhilippines/" target="_blank"><i class="fa-brands fa-facebook px-2 iconlink"></i></a>
+                            <a href="https://www.leblanc.com.ph/" target="_blank"><i class="fa-solid fa-globe iconlink"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#leblanc" href=""><i class="fa-solid fa-location-dot px-2 iconlink"></i></a>
                         </div>
                     </div>
                 </div>
@@ -312,9 +367,9 @@
                     <h4 class="card-title h4 text-center">Seven Suites Hotel Observatory</h4>
                     <div class="card-text">
                         <div class="h3 text-center">
-                            <a href="https://www.facebook.com/sevensuiteshotel/" target="_blank"><i class="fa-brands fa-facebook px-2"></i></a>
-                            <a href="https://seven-suites-observatory.h-rez.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            <a data-bs-toggle="modal" data-bs-target="#seven" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                            <a href="https://www.facebook.com/sevensuiteshotel/" target="_blank"><i class="fa-brands fa-facebook px-2 iconlink"></i></a>
+                            <a href="https://seven-suites-observatory.h-rez.com/" target="_blank"><i class="fa-solid fa-globe iconlink"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#seven" href=""><i class="fa-solid fa-location-dot px-2 iconlink"></i></a>
                         </div>
                     </div>
                 </div>
@@ -327,9 +382,9 @@
                     <h4 class="card-title h4 text-center">Boso-Boso Highlands Resort and Hotel</h4>
                     <div class="card-text">
                         <div class="h3 text-center">
-                            <a href="https://www.facebook.com/bosobosohighlandsofficial/" target="_blank"><i class="fa-brands fa-facebook px-2"></i></a>
-                            <a href="https://bosobosohighlands.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            <a data-bs-toggle="modal" data-bs-target="#boso" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                            <a href="https://www.facebook.com/bosobosohighlandsofficial/" target="_blank"><i class="fa-brands fa-facebook px-2 iconlink"></i></a>
+                            <a href="https://bosobosohighlands.com/" target="_blank"><i class="fa-solid fa-globe iconlink"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#boso" href=""><i class="fa-solid fa-location-dot px-2 iconlink"></i></a>
                         </div>
                     </div>
                 </div>
@@ -342,9 +397,9 @@
                     <h4 class="card-title h4 text-center">The City Walk Suites</h4>
                     <div class="card-text">
                         <div class="h3 text-center">
-                            <a href="https://www.facebook.com/CitywalkSuitesAntipolo/" target="_blank"><i class="fa-brands fa-facebook px-2"></i></a>
-                            <a href="https://www.thecitywalksuitesapartment.com/" target="_blank"><i class="fa-solid fa-globe"></i></a>
-                            <a data-bs-toggle="modal" data-bs-target="#city" href=""><i class="fa-solid fa-location-dot px-2"></i></a>
+                            <a href="https://www.facebook.com/CitywalkSuitesAntipolo/" target="_blank"><i class="fa-brands fa-facebook px-2 iconlink"></i></a>
+                            <a href="https://www.thecitywalksuitesapartment.com/" target="_blank"><i class="fa-solid fa-globe iconlink"></i></a>
+                            <a data-bs-toggle="modal" data-bs-target="#city" href=""><i class="fa-solid fa-location-dot px-2 iconlink"></i></a>
                         </div>
                     </div>
                 </div>
