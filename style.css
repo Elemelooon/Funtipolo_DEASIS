@@ -140,3 +140,6 @@ footer {
     background-color: rgb(47, 82, 47);
     color: white;
 }
+h4, h1, h3, h2 {
+    font-weight: bold;
+}
