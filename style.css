@@ -17,11 +17,11 @@ p {
 }
 .navbar-solid {
     opacity: 1;
-    background-color: rgb(46, 92, 46);
-    color: white;
+    background-color: rgb(47, 82, 47);
+    /* color: white; */
 }
 .navbar-brand , .nav-link {
-    color: black
+    color: white;
 }
 .crslsub img {
     height: 100%;
@@ -51,6 +51,13 @@ dt , dd {
     width: 300px !important;
     /* height: 60% !important; */
     /* top: 20% !important; */
+    background-color: rgb(47, 82, 47);
+}
+.offcanvas .btn {
+    color: white;
+}
+.offcanvas .btn:hover {
+    color: #262626;
 }
 .container-fluid {
         margin: 0;
@@ -76,6 +83,7 @@ dt , dd {
     }
 }
 footer {
-    background-color: #262626;
+    background-color: rgb(47, 82, 47);
+    color: white;
 }
 
