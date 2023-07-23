@@ -132,3 +132,10 @@ footer {
 .tourimg img {
     transition: filter 0.2s linear 0.2s;
 }
+.restbutton {
+    border: rgb(47, 82, 47);
+}
+.restbutton:hover {
+    background-color: rgb(47, 82, 47);
+    color: white;
+}
