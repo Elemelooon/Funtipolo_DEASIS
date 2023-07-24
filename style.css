@@ -3,11 +3,11 @@ body {
     margin: 0;
     /* background-color: rgb(191, 156, 203); */
     font-family: 'Ysabeau Infant', sans-serif;
+    /* background-color: #FDFD96; */
+}
+.card {
     background-color: #FDFD96;
 }
-/* .card {
-    background-color: #FDFD96;
-} */
 a {
     text-decoration: none;
 }
