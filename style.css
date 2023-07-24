@@ -3,6 +3,9 @@ body {
     margin: 0;
     /* background-color: rgb(191, 156, 203); */
     font-family: 'Ysabeau Infant', sans-serif;
+    /* background-color: #FDFD96; */
+}
+.card {
     background-color: #FDFD96;
 }
 a {
@@ -87,13 +90,7 @@ dt , dd {
     .rescard img {
         width: 100%;
     }
-    /* .maincrsl img {
-        height: 400px;
-    } */
 }
-/* .maincrsl img {
-    height: 900px;
-} */
 footer {
     background-color: rgb(47, 82, 47);
     color: white;
